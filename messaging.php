@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -40,11 +41,12 @@
                     <div class="col-12 d-flex justify-content-between">
                         <!-- Logo Area -->
                         <div class="logo">
+                            <!-- <a href="index.html" style="color: #0000A0" >  <STRONG >Njeru Nyaga & Company</STRONG>  <BR><SMALL  >&nbsp;&nbsp;&nbsp;Certified Public Accountants</SMALL>  </a> -->
                             <a href="index.html"><img src="img/core-img/logo1.png" alt=""></a>
                         </div>
 
                         <!-- Top Contact Info -->
-                         <div class="top-contact-info d-flex align-items-center">
+                        <div class="top-contact-info d-flex align-items-center">
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="P.O Box 1234, Block H, Nonini Plaza, 2nd Flr, Mombasa Road ,Nairobi - Kenya"><img src="img/core-img/placeholder.png" alt=""> <span>P.O Box 1234, Block H, Nonini Plaza, 2nd Flr, Mombasa Road ,Nairobi - Kenya</span></a>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="info@rhymesnanonini.com"><img src="img/core-img/message.png" alt=""> <span>info@rhymesnanonini.com</span></a>
                         </div>
@@ -97,167 +99,56 @@
             </div>
         </div>
     </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/one.png);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcrumb-content">
-                        <h2>Contact</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Breadcrumb Area End ##### -->
-
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <!-- Single Contact Area -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-area mb-100">
-                        <!-- Logo -->
-                        <a href="#" class="d-block mb-50"><img src="img/core-img/logo1.png" alt=""></a>
-                        <p>Morbi ut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis egestas sem. Tut dapibus dui. Sed ut iaculis elit, quis varius mauris. Integer ut ultricies orci, lobortis.</p>
-                    </div>
-                </div>
-
-                <!-- Single Contact Area -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-area mb-100">
-                        <div class="contact-advisor">
-                            <h5>Contact an advisor</h5>
-                            <!-- Single Advisor -->
-                            <div class="single-advisor d-flex align-items-center">
-                                <div class="advisor-img">
-                                    <img src="img/bg-img/team.png" alt="">
-                                </div>
-                                <div class="advisor-info">
-                                    <h6>James Smith</h6>
-                                    <span>Advisor</span>
-                                    <p>+254 347 53433</p>
-                                </div>
-                            </div>
-                            <!-- Single Advisor -->
-                            <div class="single-advisor d-flex align-items-center">
-                                <div class="advisor-img">
-                                    <img src="img/bg-img/team.png" alt="">
-                                </div>
-                                <div class="advisor-info">
-                                    <h6>Michael Williams</h6>
-                                    <span>Advisor</span>
-                                    <p>+254 347 53433</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Contact Area -->
-                <div class="col-12 col-lg-4">
-                    <div class="single-contact-area mb-100">
-                        <div class="contact--area contact-page">
-                            <!-- Contact Content -->
-                            <div class="contact-content">
-                                <h5>Get in touch</h5>
-
-                                <!-- Single Contact Content -->
-                                <div class="single-contact-content d-flex align-items-center">
-                                    <div class="icon">
-                                        <img src="img/core-img/location.png" alt="">
-                                    </div>
-                                    <div class="text">
-                                         
-                                        <p>P.O Box 1234, Block H,<br> Nonini Plaza, 2nd Flr,<br>Mombasa Road ,Nairobi - Kenya</p>
-                                    </div>
-                                </div>
-                                <!-- Single Contact Content -->
-                                <div class="single-contact-content d-flex align-items-center">
-                                    <div class="icon">
-                                        <img src="img/core-img/call.png" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <p>+254 798 333 134</p>
-                                        <span>mon-fri , 08.am - 17.pm</span>
-                                    </div>
-                                </div>
-                                <!-- Single Contact Content -->
-                                <div class="single-contact-content d-flex align-items-center">
-                                    <div class="icon">
-                                        <img src="img/core-img/message2.png" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <p>info@rhymesnanonini.com</p>
-                                        <span>we reply in 24 hrs</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
 
 
-        <!-- ##### Google Maps ##### -->
-        <div class="map-area">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
-            <!-- Contact Area -->
-            <div class="contact---area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-8">
-                            <!-- Contact Area -->
-                            <div class="contact-form-area contact-page">
-                                <h4 class="mb-50">Send a message</h4>
 
-                                <form action="messaging.php" method="post">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" id="email" placeholder="Your E-mail">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="subject" placeholder="Your Subject">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn credit-btn mt-30" type="submit">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
+<?php 
+    if(!isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message']; 
 
- <!-- ##### Footer Area Start ##### -->
+echo "$email";
+
+        $to = "info@rhymesnanonini.com";
+        $subject = 'Form Submission';
+        $msg ="Name:".$name."Tel:".$subject."wrote the following:".$message;
+        $headers ="From: ".$email;
+         if(mail($to,$subject,$msg,$headers)){
+            
+          echo "<b>sent<b>";
+}
+
+else {
+    echo "yolo";
+    
+}
+
+       
+
+
+    }
+    else
+    {
+        echo "try again";
+    }
+
+ ?>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ##### Footer Area Start ##### -->
     <footer class="footer-area section-padding-100-0">
         <div class="container">
             <div class="row">
