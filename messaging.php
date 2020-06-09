@@ -81,7 +81,7 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="videos.html">Videos</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="partners.html">Partners</a></li>
                                     <li><a href="https://flutterwave.com/pay/nonini">Donate Page</a></li>
                                     <li><a href="order.html">Merchandise Page</a></li>
                                     <li><a href="contact.html">Contact</a></li>
