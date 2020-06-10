@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,7 +17,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
 
 </head>
 
@@ -41,7 +42,7 @@
                         <!-- Logo Area -->
                         <div class="logo">
                             <!-- <a href="index.html" style="color: #0000A0" >  <STRONG >Njeru Nyaga & Company</STRONG>  <BR><SMALL  >&nbsp;&nbsp;&nbsp;Certified Public Accountants</SMALL>  </a> -->
-                             <a href="index.html"><img src="img/core-img/logo1.png" alt=""></a>
+                            <a href="index.html"><img src="img/core-img/logo1.png" alt=""></a>
                         </div>
 
                         <!-- Top Contact Info -->
@@ -98,127 +99,54 @@
             </div>
         </div>
     </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/13.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12">
-                    <div class="breadcrumb-content">
-                        <h2>Order</h2>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Place Order</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><br><br>
-    <!-- ##### Breadcrumb Area End ##### -->
-
     
 
-        <!-- ##### Google Maps ##### -->
-        <div class="map-area">
+
+
+<?php 
+         if(isset($_POST['submit'])){
+        $ser= $_POST['service'];
+        $sal=$_POST['salutation'];
+        $fna = $_POST['fname'];
+        $lna = $_POST['lname'];
+        $id = $_POST['idnumber'];
+        $em = $_POST['email'];
+        $tel = $_POST['tel'];
+        $mess = $_POST['message'];
+       
+        $to = "order@rhymesnanonini.com";
+        $subject = "MY ORDER";
+        $message ="My names is : ".$sal. " ".$fna ." ".$lna ." of ID  ".$id." My contact information is, EMAIL ". $em." and Telephone ".$tel." Am writing to order ". $ser . "The following is my Message request ".$mess;
+        $headers ="From: ".$email;
+         if(mail($to,$subject,$message,$headers)){
             
-            <!-- Contact Area -->
-            <div class="contact---area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-10">
-                            <!-- Contact Area -->
-                            <div class="contact-form-area contact-page">
-                                <h4 class="mb-50">Order a Product</h4>
-                                <div style="color: white"> <li>Kindly select the product before you start filling in the details!!</li><br>
-                                <li>All fields are mandatory *</li><br>
-                                <li>Once you are satisfied with your Product order application go to submit application tab and submit your Order</li> </div><br>
+          echo "<b>Request sent successfully to Rhymes Na Nonini<b>";
+}
 
-                                <form action="try.php" method="post">
-                                    <div class="row">
-
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="service" style="color: white">Choose a Product:</label>
-                                          <select name="service" type ="text">
-                                            <option>---Select a Service---</option>
-                                            <option value="Hoods">Hoods</option>
-                                            <option value="Mugs">Mugs</option>
-                                            <option value="T Shirts">T Shirts</option>
-                                            <option value="Caps">Caps</option>
-                                          </select>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <label for="salutation" style="color: white">Salutation</label>
-                                          <select name="salutation" type ="text">
-                                            <option>---Select---</option>
-                                            <option value="Mr">Mr</option>
-                                            <option value="Mrs">Mrs</option>
-                                            <option value="Rev">Rev</option>
-                                            <option value="Prof">Prof</option>
-                                          </select>
-                                            </div>
-                                        </div>
-
-
-
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="fname" placeholder="First Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="lname" placeholder="Last Name"required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="idnumber" placeholder="Passport/ID Number" required>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="number" class="form-control" name="tel" placeholder="Your Phone No."required>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <textarea type="text" class="form-control" name="message" cols="30" rows="10" placeholder="Your Request Indicating when you need the product and your location please"required></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn credit-btn mt-30" type="submit" name="submit">Send Application</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><br><br>
-    </section>
-    <!-- ##### Contact Area End ##### -->
-    <!-- ##### Contact Area End ##### -->
-
+else {
+    echo "Failed";
     
-    <!-- ##### Footer Area Start ##### -->
+}
+
+}
+    else
+    {
+        echo "try again";
+    }
+
+ ?>
+
+
+
+
+
+
+
+
+
+
+
+
     <footer class="footer-area section-padding-100-0">
         <div class="container">
             <div class="row">

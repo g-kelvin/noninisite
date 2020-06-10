@@ -104,36 +104,27 @@
 
 
 <?php 
-    if(!isset($_POST['submit'] )){
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message']; 
-
-echo "$email";
-
+        
+        $na = $_POST['name'];
+        $em = $_POST['email'];
+        $subj = $_POST['subject'];
+        $mess = $_POST['message'];
+       
         $to = "info@rhymesnanonini.com";
-        $subject = 'Form Submission';
-        $msg ="Name:".$name."Tel:".$subject."wrote the following:".$message;
-        $headers ="From: ".$email;
-         if(mail($to,$subject,$msg,$headers)){
+        $subject = $subj;
+        $message ="My Name is : ".$na." of Email: ".$em." The Following is my message: ".$mess;
+        $headers ="From: ".$em;
+         if(mail($to,$subject,$message,$headers)){
             
-          echo "<b>sent<b>";
+          echo "<b>Message sent successfully to Rhymes Na Nonini<b>";
 }
 
 else {
-    echo "yolo";
+    echo "Failed";
     
 }
 
-       
 
-
-    }
-    else
-    {
-        echo "try again";
-    }
 
  ?>
 
@@ -147,8 +138,6 @@ else {
 
 
 
-
-<!-- ##### Footer Area Start ##### -->
     <footer class="footer-area section-padding-100-0">
         <div class="container">
             <div class="row">
