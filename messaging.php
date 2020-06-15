@@ -155,7 +155,7 @@ else {
                             <li><i class="flaticon-025-arroba"></i>info@rhymesnanonini.com / rhymesnanonini@gmail.com</li>
                             <br><br>
                             <li><i class="flaticon-038-wall-clock"></i>Click to Text us on Whatsapp</li><br>
-                             <a href="https://wa.me/0792945999" class="fa fa-whatsapp" style="font-size:24px;color:green"> Whatsapp Us</a><br>
+                             <a href="https://wa.me/+254798333134" class="fa fa-whatsapp" style="font-size:24px;color:green"> Whatsapp Us</a><br>
                             <li><i class="flaticon-038-wall-clock"></i>Everyday: 08:00 -18:00 pm</li>
                         </ul>
                         </nav>
